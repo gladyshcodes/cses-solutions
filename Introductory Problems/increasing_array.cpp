@@ -15,7 +15,7 @@ int main() {
     int x;
     cin >> x;
 
-    mx=max(mx, n);
+    mx=max(mx, x);
     ans+=mx-x;
   }
   cout << ans;
